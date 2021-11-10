@@ -46,19 +46,6 @@
 
         </div>
     </div>
-
-    <!--Footer-->
-    <div class="row mt-5 mb-4 footer">
-        <div class="col-sm-8">
-            <span>&copy; All rights reserved 2019 designed by <a class="text-info" href="#">A-Fusion</a></span>
-        </div>
-        <div class="col-sm-4 text-right">
-            <a href="#" class="ml-2">Contact Us</a>
-            <a href="#" class="ml-2">Support</a>
-        </div>
-    </div>
-    <!--Footer-->
-
 </div>
 
 <div class="modal fade" id="ajaxModal" aria-hidden="true">
@@ -85,7 +72,6 @@
                     <div class="form-group">
                         <label class="col-form-label">Teras :</label><br>
                         <select id="id_teras" name="id_teras"  data-live-search="true" style="width:50%">
-                            {{-- <option value="" disabled>--Pilih teras--</option> --}}
                             @foreach ($teras as $data)
                                 <option value="{{$data->id}}">{{$data->nama_teras}}</option>
                             @endforeach

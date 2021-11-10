@@ -91,15 +91,6 @@
 
         </div>
     </div>
-
-    <!--Footer-->
-    <div class="row mt-5 mb-4 footer">
-        <div class="col-sm-8">
-            <span>&copy; All rights reserved 2021 designed by <a class="text-info" href="http://www.batan.go.id/">BATAN</a></span>
-        </div>
-    </div>
-    <!--Footer-->
-
 </div>
 
 <div class="modal fade" id="ajaxModal" aria-hidden="true">

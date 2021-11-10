@@ -53,19 +53,6 @@
 
         </div>
     </div>
-
-    <!--Footer-->
-    <div class="row mt-5 mb-4 footer">
-        <div class="col-sm-8">
-            <span>&copy; All rights reserved 2019 designed by <a class="text-info" href="#">A-Fusion</a></span>
-        </div>
-        <div class="col-sm-4 text-right">
-            <a href="#" class="ml-2">Contact Us</a>
-            <a href="#" class="ml-2">Support</a>
-        </div>
-    </div>
-    <!--Footer-->
-
 </div>
 
 @include('sweetalert::alert')
@@ -140,24 +127,6 @@
                 }
             });
         });
-
-        // $('body').on('click', '#delete', function () {
-
-        //     var id = $(this).data("id");
-        //         confirm("Are You sure want to delete !");
-
-        //     $.ajax({
-        //         type: "DELETE",
-        //         url: ""+'/'+id,
-        //         success: function (data) {
-        //             table.draw();
-        //         },
-        //         error: function (data) {
-        //             console.log('Error:', data);
-        //         }
-        //     });
-        // });
-
     });
 </script>        
 @endsection

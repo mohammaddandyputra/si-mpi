@@ -53,7 +53,12 @@
                     <div class="form-group row">
                         <label class="control-label mt-2 col-sm-2">PT</label>
                         <div class="col-sm-10">
-                            <input type="text" name="pt" id="pt" class="form-control" value="" placeholder="Masukkan nilai PT (Proses Throughput)"/>
+                            <div class="input-group mb-3">
+                                <input type="text" name="pt" id="pt" class="form-control" value="" placeholder="Masukkan nilai PT (Proses Throughput)"/>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">hari</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -64,18 +69,6 @@
             </div>
         </div>
     </div>
-
-    <!--Footer-->
-    <div class="row mt-5 mb-4 footer">
-        <div class="col-sm-8">
-            <span>&copy; All rights reserved 2019 designed by <a class="text-info" href="#">A-Fusion</a></span>
-        </div>
-        <div class="col-sm-4 text-right">
-            <a href="#" class="ml-2">Contact Us</a>
-            <a href="#" class="ml-2">Support</a>
-        </div>
-    </div>
-    <!--Footer-->
 
 </div>
 @endsection

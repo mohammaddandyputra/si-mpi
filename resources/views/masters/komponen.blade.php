@@ -28,26 +28,13 @@
 
         </div>
     </div>
-
-    <!--Footer-->
-    <div class="row mt-5 mb-4 footer">
-        <div class="col-sm-8">
-            <span>&copy; All rights reserved 2019 designed by <a class="text-info" href="#">A-Fusion</a></span>
-        </div>
-        <div class="col-sm-4 text-right">
-            <a href="#" class="ml-2">Contact Us</a>
-            <a href="#" class="ml-2">Support</a>
-        </div>
-    </div>
-    <!--Footer-->
-
 </div>
 
 <div class="modal fade" id="ajaxModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header bg-dark text-black text-center">
-                <h5 class="modal-title text-secondary" id="modal-header"><strong> Tambah Komponen</strong></h5>
+                <h5 class="modal-title text-secondary" id="modal-header"></h5>
                 <button type="button" class="close pull-right" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
@@ -58,9 +45,6 @@
                     <div class="form-group">
                         <label for="nama_komponen">Nama komponen :</label>
                         <input class="form-control" type="text" id="nama_komponen" name="nama_komponen"/>
-                        {{-- <div class="invalid-feedback">
-                            {{$errors->first('nama_komponen')}}
-                        </div> --}}
                     </div>
                 </form>
             </div>
@@ -76,13 +60,6 @@
         
 @section('script')
 <script type="text/javascript">
-    // $(document).ready(function(){
-    //     Swal.fire(
-    //         'Good job!',
-    //         'You clicked the button!',
-    //         'success'
-    //     )
-    // })
     
     $(function () {
         var table = $('#data-komponen').DataTable({

@@ -91,9 +91,10 @@
                         <div class="mr-4">
                             @if(\Auth::user())
                                 <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <h6 class="mt-2">
+                                    <h2 class="badge badge-pill badge-light mt-2">
+                                        <span><i class="fa fa-user"></i></span>
                                         {{Auth::user()->name}}
-                                    </h6>
+                                    </h2>
                                 </a>
                             @endif
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
